@@ -1,0 +1,136 @@
+body {
+	background: #e2e2e2!important;
+}
+.bg-primary{
+	background: #10403B!important;
+}
+.abc{
+	width: 100%;
+	height: 93vh;
+	background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) , url(../img/a.jpg);
+	background-size: cover;
+	color: white;
+}
+.scm{
+	width: 100%;
+	height: 93vh;
+	background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) , url(../img/scm.jpg);
+	background-size: cover;
+	color: white;
+}
+
+
+textarea::placeholder {
+    font-weight: bold;
+    color: #495057;
+    opacity: .5;
+    color: red;
+}
+
+
+.card{
+	padding: 20px;
+	background: white!important;
+	
+}
+#login 
+.container #login-row #login-column #login-box {
+  margin-top: 30px;
+  height: 400px;
+  width : 1000px;
+  border: 1px solid #9C9C9C;
+  background-color: #10403B; 
+  background-size: cover;
+}
+#login 
+.container #login-row #login-column #login-box #login-form {
+  padding: 24px;
+}
+#login 
+.container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -75px;
+}
+
+@media only screen and (max-width: 600px){
+	
+	.sidebar{
+	display : none;
+	width : 80% !important;
+	height : 100vh;
+	background : black;
+	position : fixed;
+	padding-top : 20px;
+			}
+
+	.content{
+	margin-left : 0% !important;
+			}
+}
+
+
+/* sidebar */
+.sidebar{
+	width : 20%;
+	height : 100%;
+	background : black;
+	position : fixed;
+	padding-top : 40px;
+	z-index: 99999999999999999999999999999999999999999999999999999999999;
+}
+
+.sidebar a {
+	display : block;
+	width : 100%;
+	padding : 10px 10px;
+	text-decoration : none;
+	color : white;
+}
+
+.sidebar a:hover{
+	background : #52796f;
+}
+
+.sidebar .divider{
+	height : .5px;
+	width : 100%;
+	margin-top : 10px;
+	background : #e2e2e2;
+}
+
+
+/* content */
+.content{
+	margin-left: 24%;
+}
+
+.sidebar .crossBtn{
+	position : absolute;
+	top : 0;
+	right : 35px;
+	font-size : 25px;
+	cursor : pointer; 
+	color : white;
+}
+
+.my_profile{
+	width : 35px;
+	height : 40px;
+	object-fit : cover;
+}
+
+/* Search CSS */
+
+.search-container{
+	position: relative;
+}
+
+.search-result{
+	position: absolute;
+	background: #10403B;
+	color: white;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid white;
+	display: none;
+	
+}
